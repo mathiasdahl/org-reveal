@@ -178,6 +178,17 @@ $ git clone https://github.com/yjwen/org-reveal.git
     Available themes can be found in "css/theme/" in the reveal.js directory.
 
     Available transitions are: default|cube|page|concave|zoom|linear|fade|none.
+    
+*** Per-slide transition
+
+  You can have different transitions on each slide by setting the reveal_data_transition property, like this:
+  
+: ** Slide Title
+:   :PROPERTIES:
+:   :reveal_data_transition: default none
+:   :END:
+
+  Above, the start transition is set to the default one but the end transition for the slide is set to none.
 
 ** Set Slide Background
 
